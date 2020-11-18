@@ -1,0 +1,147 @@
+@import 'variables.css';
+@import 'button.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--default-font-size);
+}
+
+body {
+  margin: 0;
+  background-color: var(--default-bg-color);
+  color: var(--default-color);
+  font-family: var(--default-font-family), sans-serif;
+  font-weight: var(--regular-font-weight);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.container {
+  height: calc(100vh - 4rem);
+  margin: 2rem 4rem;
+}
+
+.container > .title {
+  font-size: 3rem;
+  font-weight: var(--bold-font-weight);
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.content > .title {
+  font-size: 3.75rem;
+  font-weight: var(--bold-font-weight);
+}
+
+.content > .desc {
+  font-size: 1rem;
+  font-weight: var(--bold-font-weight);
+}
+
+#thank_you {
+  display: none;
+}
+
+.thank-you-wrapper {
+  border: 2px solid #c0c0c0;
+  border-radius: 3.125rem;
+  height: 7.5rem;
+  width: 7.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 2rem;
+  background-color: #fff;
+}
+
+.content > .heading {
+  font-size: 2.125rem;
+  color: #414141;
+  font-weight: var(--semi-bold-font-weight);
+}
+
+.content > .sub-heading {
+  font-size: 1.25rem;
+  color: #818181;
+  font-weight: var(--semi-bold-font-weight);
+}
+
+/* QUESTIONS PAGE */
+.question-wrapper {
+  margin-top: 50px;
+  display: none;
+}
+
+#question {
+  width: 60%;
+  font-weight: var(--semi-bold-font-weight);
+  font-size: 2.125rem;
+}
+
+#question_loader {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: var(--semi-bold-font-weight);
+}
+
+.nav-btn-wrapper {
+  position: fixed;
+  bottom: 3rem;
+  width: calc(100vw - 8rem);
+  z-index: 9;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+
+  .container {
+    height: calc(100vh - 4rem);
+    margin: 2rem;
+  }
+
+  .container > .title {
+    text-align: center;
+  }
+
+  .content > .desc {
+    font-size: 1.2rem;
+  }
+
+  .thank-you-wrapper > svg {
+    height: 2.5rem;
+    width: auto;
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "fresh-fruits",
+  "version": "1.0.0",
+  "description": "A survey app that records user's answers and posts it to a backend API.",
+  "scripts": {},
+  "author": "vnoitkumar"
+}

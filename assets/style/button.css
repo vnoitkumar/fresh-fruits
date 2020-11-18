@@ -1,0 +1,50 @@
+@import 'variables.css';
+
+.btn {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+  background-color: var(--white);
+  color: var(--primary-color);
+  border: 1px solid var(--white-variant);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  border-color: var(--primary-color);
+}
+
+.btn:focus,
+.btn.focus {
+  box-shadow: 0 0 0 0.2rem var(--primary-box-shadow-color);
+}
+
+.btn > svg {
+  fill: #1672ec;
+}
+
+.btn-primary {
+  color: var(--text-in-primary-color);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color-variant);
+}
+
+.btn-primary > svg {
+  fill: #8ab9f6;
+}
+
+.btn > .right-side-icon {
+  margin-left: 10px;
+}
+
+.btn > .left-side-icon {
+  transform: rotate(180deg);
+  margin-right: 10px;
+}

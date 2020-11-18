@@ -1,0 +1,18 @@
+:root {
+  --default-bg-color: #f2f8ff;
+  --default-color: #000000;
+  --default-font-family: 'IBM Plex Sans';
+  --default-font-size: 16px;
+
+  --regular-font-weight: 400;
+  --semi-bold-font-weight: 600;
+  --bold-font-weight: 700;
+
+  --primary-color: #0f56b3;
+  --text-in-primary-color: #c5dcfa;
+  --primary-color-variant: #0069d9;
+  --primary-box-shadow-color: rgba(15, 86, 179, 0.5);
+
+  --white: #ffffff;
+  --white-variant: #c0c0c0;
+}

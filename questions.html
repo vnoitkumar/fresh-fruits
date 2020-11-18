@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh Fruits</title>
+    <link rel="stylesheet" href="./assets/style/common.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <h2 class="title">FreshFruits</h2>
+
+      <div id="question_loader">Loading...</div>
+      <section id="question_wrapper" class="question-wrapper">
+        <h1 id="question"></h1>
+
+        <div class="nav-btn-wrapper">
+          <button class="btn" id="back_btn">
+            <svg
+              width="18"
+              height="12"
+              viewBox="0 0 18 12"
+              fill="none"
+              class="left-side-icon"
+            >
+              <path
+                d="M12.0378 0.34317L10.6269 1.76069L13.8972 5.01566L0.292114 5.02935L0.294127 7.02935L13.8619 7.01569L10.6467 10.2459L12.0643 11.6568L17.7079 5.98677L12.0378 0.34317Z"
+              /></svg
+            >Back
+          </button>
+
+          <button class="btn btn-primary" id="next_btn">
+            Next<svg
+              width="18"
+              height="12"
+              viewBox="0 0 18 12"
+              fill="none"
+              class="right-side-icon"
+            >
+              <path
+                d="M12.0378 0.34317L10.6269 1.76069L13.8972 5.01566L0.292114 5.02935L0.294127 7.02935L13.8619 7.01569L10.6467 10.2459L12.0643 11.6568L17.7079 5.98677L12.0378 0.34317Z"
+              />
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <section id="thank_you" class="content-wrapper">
+        <div class="content align-center">
+          <div class="thank-you-wrapper">
+            <svg
+              width="56"
+              height="42"
+              viewBox="0 0 56 42"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18.3805 31.9526L5.04754 18.6189L0.333496 23.333L18.3805 41.3807L55.047 4.71409L50.333 4.45048e-05L18.3805 31.9526Z"
+                fill="#1F8B24"
+              />
+            </svg>
+          </div>
+          <h1 class="heading">Thank you!</h1>
+          <p class="sub-heading">Thanks for helping us improve!</p>
+        </div>
+      </section>
+    </section>
+
+    <script src="https://unpkg.com/idb@5/build/iife/index-min.js"></script>
+    <script src="/assets/script/questions.js"></script>
+  </body>
+</html>
