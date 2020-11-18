@@ -144,4 +144,7 @@ button {
     height: 2.5rem;
     width: auto;
   }
+  #question {
+    width: 100%;
+  }
 }
